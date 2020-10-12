@@ -4,9 +4,9 @@ block content
         h1 Bienvenido!
         if datos 
              h2 #{datos.email}
-             h2 Lista de alumnos
+             h2 Lista de Estudiantes
              ul 
                each nombre in datos.alumnos
                    li= nombre
         else
-           h2 datos no disponibles
+           h2 datos no disponible
